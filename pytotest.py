@@ -1,1 +1,1 @@
-print ("Hello World van programmeerdertje.")
+print ("Hello World van programmeerdertje")
