@@ -21,5 +21,6 @@ tweedewinkelkar.voeg_product_toe("  boot")
 tweedewinkelkar.voeg_product_toe("  kinderkamer")
 print(tweedewinkelkar)
 
+
 winkelkartotaal = ikeakarretje + tweedewinkelkar
 print(winkelkartotaal)

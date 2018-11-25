@@ -39,5 +39,6 @@ class Winkelkar:
         return "Winkelkar : {0}".format(self.producten)
 
 
+
 # +     object.__add__(self, other)
 # +=        object.__iadd__(self, other)
