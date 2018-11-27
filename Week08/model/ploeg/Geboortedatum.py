@@ -66,11 +66,23 @@ class Geboortedatum:
         res = Geboortedatum(dag, maand, jaar)
         return res
 
-
     def __str__(self):
         return "Geboortedatum : {0}/{1}/{2}".format(self.dag, self.maand, self.jaar)
 
-""""
-    def __str__(self):
-        return "Geboortedatum : {0}".format(self.res)
+"""
+   >>> class Person:
+      def __init__(self,name,age):
+         self.name=name
+         self.age=age
+      def __gt__(self,other):
+         if self.age>other.age:
+                return True
+         return False
+      def __abs__(self):
+         return abs(self.age)
+      def __iadd__(self,other):
+         return self.age+other.age
+>>> Nick=Person('Nick',7)
+>>> Angela=Person('Angela',5)
+>>> Nick>Angela
 """
