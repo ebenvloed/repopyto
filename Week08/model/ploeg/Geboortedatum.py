@@ -66,8 +66,11 @@ class Geboortedatum:
         res = Geboortedatum(dag, maand, jaar)
         return res
 
-    # def __str__(self):
-    #     return "Geboortedatum : {0}/{1}/{2}".format(self.dag, self.maand, self.jaar)
 
     def __str__(self):
+        return "Geboortedatum : {0}/{1}/{2}".format(self.dag, self.maand, self.jaar)
+
+""""
+    def __str__(self):
         return "Geboortedatum : {0}".format(self.res)
+"""
